@@ -5,11 +5,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint \"./src/**/*.{js,jsx}\" --fix"
   },
   "dependencies": {
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-next": "^12.2.5",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.7",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1"
   }
 }
